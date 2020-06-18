@@ -18,7 +18,7 @@
 
 <body>
 
-<nav class="navbar navbar-dark bg-dark p-0 flex-nowrap fixed-top shadow">
+<header class="navbar navbar-dark bg-dark p-0 flex-nowrap fixed-top shadow">
 
 <a class="navbar-brand col-2 mr-0" href="#">Company name</a>  
 <input class="form-control form-control-dark bg-dark" type="text" placeholder="Search" aria-label="Search">
@@ -27,53 +27,55 @@
 <a class="nav-item nav-link py-3 text-nowrap" href="#">Sign out</a>      
 </div>
 
-</nav>
+</header>
  
-  <nav class="">
-    <div class="">
-      <ul class="">
-        <li class="">
-          <a class="" href="#">
+  <nav class="col-2 bg-light sidebar">
+   
+      <ul class="nav flex-column">
+        <li class="nav-item">
+          <a class="nav-link" href="#">
             Dashboard <span class="">(current)</span>
           </a>
         </li>
-        <li class="">
-          <a class="" href="#">
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">
             Orders
           </a>
         </li>
-        <li class="">
-          <a class="" href="#">
+      <li class="nav-item">
+          <a class="nav-link" href="#">
             Products
           </a>
         </li>
-        <li class="">
-          <a class="" href="#">
+        <li class="nav-item">
+          <a class="nav-link" href="#">
             Customers
           </a>
         </li>
-        <li class="">
-          <a class="" href="#">
+        <li class="nav-item">
+          <a class="nav-link" href="#">
             Reports
           </a>
         </li>
-        <li class="">
-          <a class="" href="#">
+        <li class="nav-item">
+          <a class="nav-link" href="#">
             Integrations
           </a>
         </li>
       </ul>
 
-      <h6 class="">
+      <h6 class="sidebar-heading px-3 mt-4">
         <span>Saved reports</span>
       </h6>
-      <ul class="">
-        <li class="">
-          <a class="" href="#">
+      
+      <ul class="nav flex-column">
+        <li class="nav-item">
+          <a class="nav-link" href="#">
             Current month
           </a>
         </li>
-        <li class="">
+      <!--  <li class="">
           <a class="" href="#">
             Last quarter
           </a>
@@ -88,11 +90,12 @@
             Year-end sale
           </a>
         </li>
+-->
       </ul>
-    </div>
+   
   </nav>
 
-  <main role="main" class="">
+  <main role="main" class="col-10 ml-auto">
     <div class="">
       <h1 class="">Dashboard</h1>
       <div class="">
