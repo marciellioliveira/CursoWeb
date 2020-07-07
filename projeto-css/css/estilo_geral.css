@@ -72,10 +72,43 @@ section h2 {
     text-decoration: none;
 }
 
+.cards-container {
+    padding: .75rem 1.25rem;
+}
 
+.cards-container .card {
+    border-radius: 0;
+    border: none;
+}
 
+.cards-container .card-body {
+    background-color: rgba(70,70,70);
+    padding: 1rem .75rem;
+    margin: 0;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: .8rem;
+    color: #fff;
+}
 
+.cards-container [class^=col] {
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
 
+.rodape {
+    height: 5rem;
+    color: #fff;
+    font-size: .8rem;
+    text-align: center;
+    text-shadow: 2px 2px 2px #000;
+    background-color: #6b6c68;
+}
+
+.rodape p {
+    margin: 0;
+}
 
 
 
